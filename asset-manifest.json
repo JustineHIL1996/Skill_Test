@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Skill_Test/static/js/main.8be8f75a.js",
+    "main.js": "/Skill_Test/static/js/main.c11e46b9.js",
     "static/media/isko.jpg": "/Skill_Test/static/media/isko.7d0fb67bc8452c2bbd2a.jpg",
     "static/media/lito.jpg": "/Skill_Test/static/media/lito.edc14c02fa98aa564483.jpg",
     "static/media/tito.jpg": "/Skill_Test/static/media/tito.e47838b21787af113d4b.jpg",
@@ -11,9 +11,9 @@
     "static/media/marcos.jpg": "/Skill_Test/static/media/marcos.206f6ffbeb2d6beaa55c.jpg",
     "static/media/sara.jpg": "/Skill_Test/static/media/sara.8e7701f1a02b684bbb75.jpg",
     "index.html": "/Skill_Test/index.html",
-    "main.8be8f75a.js.map": "/Skill_Test/static/js/main.8be8f75a.js.map"
+    "main.c11e46b9.js.map": "/Skill_Test/static/js/main.c11e46b9.js.map"
   },
   "entrypoints": [
-    "static/js/main.8be8f75a.js"
+    "static/js/main.c11e46b9.js"
   ]
 }
