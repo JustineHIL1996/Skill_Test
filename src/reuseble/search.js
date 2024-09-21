@@ -3,19 +3,28 @@ import Input from 'antd/lib/input';
 import SearchOutlined from '@ant-design/icons/SearchOutlined';
 import Select from 'antd/lib/select';
 
-const { Option } = Select;
+export const SearchData = ({ materials, setData, defaultRole, placeholder }) => {
+  const handleSearch = (e) => {
+    const searchValue = e.target.value;
 
-export const DataSearch = ({materials, setData, placeholder}) => {
-  const searchItems = (value) => {
-    if (value?.length) {
-        const tempData = materials.filter((item) => {
-            return Object.values(item).join('').toLowerCase().includes(value.toLowerCase())
-        })
-        setData(tempData)
-    } else {
-        setData(materials)
+    if (!searchValue) {
+      const filteredByRole = materials.filter(item => item.for === (defaultRole || (defaultRole === 'President')));
+      setData(filteredByRole); 
+      return;
     }
-  }
+
+    const lowerCaseSearchValue = typeof searchValue === 'string' ? searchValue.toLowerCase() : '';
+
+    const filtered = materials.filter(item => 
+      (item.for === defaultRole || (item.for === (defaultRole || 'President'))) && 
+      item.candidates.some(candidate => 
+        candidate.firstName.toLowerCase().includes(lowerCaseSearchValue) || 
+        candidate.lastName.toLowerCase().includes(lowerCaseSearchValue)
+      )
+    );
+
+    setData(filtered);
+  };
 
   return (
     <Input
@@ -23,30 +32,64 @@ export const DataSearch = ({materials, setData, placeholder}) => {
       allowClear={true} 
       className='search'
       placeholder={placeholder} 
-      suffix={<SearchOutlined/>}
-      onChange={(e) => searchItems(e.target.value)}
+      suffix={<SearchOutlined />}
+      onChange={handleSearch}
+    />
+  );
+};
+
+export const SelectDataforPandVP = ({ data, setData, placeholder, defaultValue }) => {
+
+  const onRoleSelect = (value) => {
+    filterDataByRole(value);
+    defaultValue(value)
+  };
+
+  const filterDataByRole = (role) => {
+    if (!role) {
+        setData(data);
+    } else {
+        const filtered = data.filter((user) => user.for === role);
+        setData(filtered);
+    }
+  };
+
+  return (
+    <Select
+      showSearch={false}
+      allowClear={true}
+      onChange={onRoleSelect}
+      placeholder={placeholder}
+      defaultValue={defaultValue}
+      className='select'
+      optionFilterProp="children"
+      options={[
+        { key: 0, label: 'President', value: 'President' },
+        { key: 1, label: 'Vice President', value: 'Vice-President' }
+      ]}
       style={{
-        width: '20%'
+        width: '250px',
       }} 
     />
   );
 };
 
-export const DataSelectRegion = ({getData, onChange, onSelect, placeholder}) => {
+export const SelectData = ({id, value, getData, onChange, placeholder}) => {
   return(
     <Select
-      onSelect={onSelect}
-      showSearch={true}
+      id={id}
+      value={value}
+      showSearch={false}
       allowClear={true}
       onChange={onChange}
       placeholder={placeholder}
       className='select'
       optionFilterProp="children"
-      options={getData && getData.length > 0 && getData.map((item, index) => {
+      options={getData.map((item) => {
         return {
-            key: index,
-            label: item.region_name,
-            value: item.region_code
+            key: item.name,
+            label: item.name,
+            value: item.name
           };
         })}
       style={{
@@ -56,73 +99,26 @@ export const DataSelectRegion = ({getData, onChange, onSelect, placeholder}) => 
   );
 };
 
-export const DataSelectProvices = ({getData, onChange, disabled, placeholder}) => {
+export const SelectDataAlternative = ({id, value, getData, onChange, placeholder}) => {
   return(
     <Select
-      disabled={disabled}
-      showSearch={true}
+      id={id}
+      value={value}
+      showSearch={false}
       allowClear={true}
       onChange={onChange}
       placeholder={placeholder}
       className='select'
       optionFilterProp="children"
-      options={getData && getData.length > 0 && getData.map((item, index) => {
+      options={getData.map((item) => {
         return {
-            key: index,
-            label: item.province_name,
-            value: item.province_code
+            key: item,
+            label: item,
+            value: item
           };
         })}
       style={{
-        width: '200px'
-      }} 
-    />
-  );
-};
-
-export const DataSelectCities = ({getData, onChange, disabled, placeholder}) => {
-  return(
-    <Select
-      disabled={disabled}
-      showSearch={true}
-      allowClear={true}
-      onChange={onChange}
-      placeholder={placeholder}
-      className='select'
-      optionFilterProp="children"
-      options={getData && getData.length > 0 && getData.map((item, index) => {
-        return {
-            key: index,
-            label: item.city_name,
-            value: item.city_code
-          };
-        })}
-      style={{
-        width: '200px'
-      }} 
-    />
-  );
-};
-
-export const DataSelectBarangays = ({getData, onChange, disabled, placeholder}) => {
-  return(
-    <Select
-      disabled={disabled}
-      showSearch={true}
-      allowClear={true}
-      onChange={onChange}
-      placeholder={placeholder}
-      className='select'
-      optionFilterProp="children"
-      options={getData && getData.length > 0 && getData.map((item, index) => {
-        return {
-            key: index,
-            label: item.brgy_name,
-            value: item.brgy_code
-          };
-      })}
-      style={{
-        width: '200px'
+        width: '250px'
       }} 
     />
   );

@@ -16,7 +16,7 @@ const HeaderLayout = () => {
                     color:'white', 
                     fontWeight:'bold'
                 }}> 
-                    2022 PHILIPPINE NATIONAL ELECTION | PRESIDENT RACE
+                    2022 PHILIPPINE NATIONAL ELECTION | PRESIDENT AND VICE-PRESIDENT RACE
             </div>
         </Header>
     );
