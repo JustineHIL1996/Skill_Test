@@ -38,7 +38,7 @@ function DataTable() {
         const { country, groupOfIsland, region, province, city, barangay } = selectedLocation;
 
         const filtered = data.filter((user) => {
-            const matchesRole = defaultRole ? user.for === defaultRole : true;
+            const matchesRole = (user.for === defaultRole || (user.for === (defaultRole || 'President')));
             const matchesSearch = user.candidates.some(candidate =>
                 candidate.firstName.toLowerCase().includes(searchInput.toLowerCase()) ||
                 candidate.lastName.toLowerCase().includes(searchInput.toLowerCase())
@@ -82,7 +82,7 @@ function DataTable() {
             dataIndex: 'profile',
             key: 'profile',
             render: (dataIndex) => {
-                return <Image style={{ borderRadius: '5px' }} width={100} height={80} src={`${process.env.PUBLIC_URL}/${dataIndex}`} />;
+                return <Image style={{ borderRadius: '5px' }} width={100} height={80} src={`${dataIndex}`} />;
             },
             width: 110,
         },
@@ -125,7 +125,7 @@ function DataTable() {
             dataIndex: 'profile',
             key: 'profile',
             render: (dataIndex) => {
-                return <Image style={{ borderRadius: '5px' }} width={100} height={80} src={`${process.env.PUBLIC_URL}/${dataIndex}`} />;
+                return <Image style={{ borderRadius: '5px' }} width={100} height={80} src={`${dataIndex}`} />;
             },
             width: 110,
         },
@@ -174,8 +174,6 @@ function DataTable() {
     const changeButton = () => {
         setShow(!show);
     };
-    
-    console.log("asas", locationFilter)
 
     return (
         <>
