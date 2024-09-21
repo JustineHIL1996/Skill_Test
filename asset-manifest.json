@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Skill_Test/static/js/main.23de350d.js",
+    "main.js": "/Skill_Test/static/js/main.e300e528.js",
     "index.html": "/Skill_Test/index.html",
-    "main.23de350d.js.map": "/Skill_Test/static/js/main.23de350d.js.map"
+    "main.e300e528.js.map": "/Skill_Test/static/js/main.e300e528.js.map"
   },
   "entrypoints": [
-    "static/js/main.23de350d.js"
+    "static/js/main.e300e528.js"
   ]
 }
