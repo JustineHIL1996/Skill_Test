@@ -1,0 +1,473 @@
+{
+  "Users": [
+    {
+      "key": 1,
+      "candidates": [
+        {
+          "firstName": "BONGBONG",
+          "lastName": "MARCOS"
+        }
+      ],
+      "profile": "/images/president/marcos.jpg",
+      "for": "President",
+      "result": [
+        {
+          "address": "Luzon National Capital Region (NCR) City of Manila Binondo Barangay 289",
+          "votes": 7694883
+        },
+        {
+          "address": "Visayas Western Visayas (Region VI) Negros Occidental Bacolod City Alangilan",
+          "votes": 6694883
+        },
+        {
+          "address": "Mindanao Davao Region (Region XI) Davao del Sur Davao City Agdao",
+          "votes": 4694883
+        }
+      ]
+    },
+    {
+      "key": 2,
+      "candidates": [
+        {
+          "firstName": "LENI",
+          "lastName": "ROBREDO"
+        }
+      ],
+      "profile": "/images/president/leni.jpg",
+      "for": "President",
+      "result": [
+        {
+          "address": "Luzon National Capital Region (NCR) City of Manila Binondo Barangay 289",
+          "votes": 4164234
+        },
+        {
+          "address": "Visayas Western Visayas (Region VI) Negros Occidental Bacolod City Alangilan",
+          "votes": 3164234
+        },
+        {
+          "address": "Mindanao Davao Region (Region XI) Davao del Sur Davao City Agdao",
+          "votes": 2164234
+        }
+      ]
+    },
+    {
+      "key": 3,
+      "candidates": [
+        {
+          "firstName": "MANNY",
+          "lastName": "PACQUIO"
+        }
+      ],
+      "profile": "/images/president/manny.jpg",
+      "for": "President",
+      "result": [
+        {
+          "address": "Luzon National Capital Region (NCR) City of Manila Binondo Barangay 289",
+          "votes": 688763
+        },
+        {
+          "address": "Visayas Western Visayas (Region VI) Negros Occidental Bacolod City Alangilan",
+          "votes": 588763
+        },
+        {
+          "address": "Mindanao Davao Region (Region XI) Davao del Sur Davao City Agdao",
+          "votes": 488763
+        }
+      ]
+    },
+    {
+      "key": 4,
+      "candidates": [
+        {
+          "firstName": "ISKO",
+          "lastName": "MORENO"
+        }
+      ],
+      "profile": "/images/president/isko.jpg",
+      "for": "President",
+      "result": [
+        {
+          "address": "Luzon National Capital Region (NCR) City of Manila Binondo Barangay 289",
+          "votes": 543336
+        },
+        {
+          "address": "Visayas Western Visayas (Region VI) Negros Occidental Bacolod City Alangilan",
+          "votes": 443336
+        },
+        {
+          "address": "Mindanao Davao Region (Region XI) Davao del Sur Davao City Agdao",
+          "votes": 343336
+        }
+      ]
+    },
+    {
+      "key": 5,
+      "candidates": [
+        {
+          "firstName": "PING",
+          "lastName": "LACSON"
+        }
+      ],
+      "profile": "/images/president/ping.jpg",
+      "for": "President",
+      "result": [
+        {
+          "address": "Luzon National Capital Region (NCR) City of Manila Binondo Barangay 289",
+          "votes": 312196
+        },
+        {
+          "address": "Visayas Western Visayas (Region VI) Negros Occidental Bacolod City Alangilan",
+          "votes": 212196
+        },
+        {
+          "address": "Mindanao Davao Region (Region XI) Davao del Sur Davao City Agdao",
+          "votes": 112196
+        }
+      ]
+    },
+    {
+      "key": 6,
+      "candidates": [
+        {
+          "firstName": "SARA",
+          "lastName": "DUTERTE"
+        }
+      ],
+      "profile": "/images/vice-president/sara.jpg",
+      "for": "Vice-President",
+      "result": [
+          {
+            "address": "Luzon National Capital Region (NCR) City of Manila Binondo Barangay 289",
+            "votes": 11506951
+          },
+          {
+            "address": "Visayas Western Visayas (Region VI) Negros Occidental Bacolod City Alangilan",
+            "votes": 10506951
+          },
+          {
+              "address": "Mindanao Davao Region (Region XI) Davao del Sur Davao City Agdao",
+            "votes": 9506951
+          }
+        ]
+    },
+    {
+      "key": 7,
+      "candidates": [
+        {
+          "firstName": "KIKO",
+          "lastName": "PANGILINAN"
+        }
+      ],
+      "profile": "/images/vice-president/kiko.jpg",
+      "for": "Vice-President",
+      "result": [
+        {
+          "address": "Luzon National Capital Region (NCR) City of Manila Binondo Barangay 289",
+          "votes": 4074490
+        },
+        {
+          "address": "Visayas Western Visayas (Region VI) Negros Occidental Bacolod City Alangilan",
+          "votes": 3074490
+        },
+        {
+          "address": "Mindanao Davao Region (Region XI) Davao del Sur Davao City Agdao",
+          "votes": 2074490
+        }
+      ]
+    },
+    {
+      "key": 8,
+      "candidates": [
+        {
+          "firstName": "TITO",
+          "lastName": "SOTTO"
+        }
+      ],
+      "profile": "/images/vice-president/willie.jpg",
+      "for": "Vice-President",
+      "result": [
+        {
+          "address": "Luzon National Capital Region (NCR) City of Manila Binondo Barangay 289",
+          "votes": 3726092
+        },
+        {
+          "address": "Visayas Western Visayas (Region VI) Negros Occidental Bacolod City Alangilan",
+          "votes": 2726092
+        },
+        {
+          "address": "Mindanao Davao Region (Region XI) Davao del Sur Davao City Agdao",
+          "votes": 1726092
+        }
+      ]
+    },
+    {
+      "key": 9,
+      "candidates": [
+        {
+          "firstName": "WILLIE",
+          "lastName": "ONG"
+        }
+      ],
+      "profile": "/images/vice-president/willie.jpg",
+      "for": "Vice-President",
+      "result": [
+        {
+          "address": "Luzon National Capital Region (NCR) City of Manila Binondo Barangay 289",
+          "votes": 715727
+        },
+        {
+          "address": "Visayas Western Visayas (Region VI) Negros Occidental Bacolod City Alangilan",
+          "votes": 615727
+        },
+        {
+          "address": "Mindanao Davao Region (Region XI) Davao del Sur Davao City Agdao",
+          "votes": 515727
+        }
+      ]
+    },
+    {
+      "key": 10,
+      "candidates": [
+        {
+          "firstName": "LITO",
+          "lastName": "ATIENZA"
+        }
+      ],
+      "profile": "/images/vice-president/lito.jpg",
+      "for": "Vice-President",
+      "result": [
+        {
+          "address": "Luzon National Capital Region (NCR) City of Manila Binondo Barangay 289",
+          "votes": 99092
+        },
+        {
+          "address": "Visayas Western Visayas (Region VI) Negros Occidental Bacolod City Alangilan",
+          "votes": 89092
+        },
+        {
+          "address": "Mindanao Davao Region (Region XI) Davao del Sur Davao City Agdao",
+          "votes": 79092
+        }
+      ]
+    }
+  ],
+
+  "Address" : [
+    { 
+      "countrys": [
+        {
+          "name": "Philippines",
+          "groups": [
+            {
+              "name": "Luzon",
+              "regions": [
+                {
+                  "name": "National Capital Region (NCR)",
+                  "provinces": [
+                    {
+                      "name": "City of Manila",
+                      "cities": [
+                        {
+                          "name": "Binondo",
+                          "barangays": ["Barangay 289", "Barangay 290"]
+                        },
+                        {
+                          "name": "Quiapo",
+                          "barangays": ["Barangay 384", "Barangay 385"]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Second District",
+                      "cities": [
+                        {
+                          "name": "Quezon City",
+                          "barangays": ["Aurora", "Bagbag"]
+                        },
+                        {
+                          "name": "Pasig City",
+                          "barangays": ["Bambang", "Kapitolyo"]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Central Luzon (Region III)",
+                  "provinces": [
+                    {
+                      "name": "Bulacan",
+                      "cities": [
+                        {
+                          "name": "Malolos City",
+                          "barangays": ["Bangkal", "Bulihan"]
+                        },
+                        {
+                          "name": "Calumpit",
+                          "barangays": ["Balite", "Bulusan"]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Pampanga",
+                      "cities": [
+                        {
+                          "name": "Apalit",
+                          "barangays": ["Sampaloc", "Calantipe"]
+                        },
+                        {
+                          "name": "Angeles City",
+                          "barangays": ["Anunas", "Balibago"]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Visayas",
+              "regions": [
+                {
+                  "name": "Western Visayas (Region VI)",
+                  "provinces": [
+                    {
+                      "name": "Aklan",
+                      "cities": [
+                        {
+                          "name": "Balete",
+                          "barangays": ["Aranas", "Arcangel"]
+                        },
+                        {
+                          "name": "Altavas",
+                          "barangays": ["Cabugao", "Cabangila"]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Negros Occidental",
+                      "cities": [
+                        {
+                          "name": "Bacolod City",
+                          "barangays": ["Alijis", "Alangilan"]
+                        },
+                        {
+                          "name": "Escalante City",
+                          "barangays": ["Balintawak", "Alimango"]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Central Visayas (Region VII)",
+                  "provinces": [
+                    {
+                      "name": "Bohol",
+                      "cities": [
+                        {
+                          "name": "Alicia",
+                          "barangays": ["Cayacay", "Del Monte"]
+                        },
+                        {
+                          "name": "Calumpit",
+                          "barangays": ["Balite", "Bulusan"]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Cebu",
+                      "cities": [
+                        {
+                          "name": "Alcoy",
+                          "barangays": ["Daan-Lungsod", "Guiwang"]
+                        },
+                        {
+                          "name": "Catmon",
+                          "barangays": ["Bongyas", "Cabungaan"]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mindanao",
+              "regions": [
+                {
+                  "name": "Northern Mindanao (Region X)",
+                  "provinces": [
+                    {
+                      "name": "Bukidnon",
+                      "cities": [
+                        {
+                          "name": "Damulog",
+                          "barangays": ["Kinapat", "Kitingting"]
+                        },
+                        {
+                          "name": "San Fernando",
+                          "barangays": ["Cayaga", "San Jose"]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Camiguin",
+                      "cities": [
+                        {
+                          "name": "Guinsiliban",
+                          "barangays": ["Cabuan", "Cantaan"]
+                        },
+                        {
+                          "name": "Mahinog",
+                          "barangays": ["Catohugan", "San Miguel"]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Davao Region (Region XI)",
+                  "provinces": [
+                    {
+                      "name": "Davao del Norte",
+                      "cities": [
+                        {
+                          "name": "Carmen",
+                          "barangays": ["Mabaus", "Salvacion"]
+                        },
+                        {
+                          "name": "Asuncion",
+                          "barangays": ["Sagayen", "Pamacaun"]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Davao del Sur",
+                      "cities": [
+                        {
+                          "name": "Davao City",
+                          "barangays": ["Acacia", "Agdao"]
+                        },
+                        {
+                          "name": "Digos City",
+                          "barangays": ["San Miguel", "San Agustin"]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Japan example",
+          "groups": [
+          ]
+        }
+      ]
+    }
+  ]
+}
+  
